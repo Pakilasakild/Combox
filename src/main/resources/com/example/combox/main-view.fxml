@@ -6,6 +6,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<?import javafx.scene.control.Button?>
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.combox.MainController">
    <children>
       <Label prefHeight="21.0" prefWidth="148.0" text="Pasirinkite studenta">
@@ -16,6 +17,8 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
+      <Button text="Add student" onAction="#addStudent">
+      </Button>
       <ComboBox fx:id="student_combo" prefHeight="25.0" prefWidth="220.0">
          <VBox.margin>
             <Insets left="50.0" />
