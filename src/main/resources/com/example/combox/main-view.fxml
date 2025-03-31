@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.combox.MainController">
+   <children>
+      <Label prefHeight="21.0" prefWidth="148.0" text="Pasirinkite studenta">
+         <VBox.margin>
+            <Insets left="50.0" top="50.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="student_combo" prefHeight="25.0" prefWidth="220.0">
+         <VBox.margin>
+            <Insets left="50.0" />
+         </VBox.margin>
+      </ComboBox>
+      <Label fx:id="student_text" text="Nepasirinktas studentas">
+         <VBox.margin>
+            <Insets left="50.0" top="10.0" />
+         </VBox.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label text="Pasirinkite reiksme">
+         <VBox.margin>
+            <Insets left="50.0" top="20.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="value_combo" prefHeight="25.0" prefWidth="213.0">
+         <VBox.margin>
+            <Insets left="50.0" />
+         </VBox.margin>
+      </ComboBox>
+      <Label fx:id="value_text" text="Nepasirinkta reiksme">
+         <VBox.margin>
+            <Insets left="50.0" top="10.0" />
+         </VBox.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
